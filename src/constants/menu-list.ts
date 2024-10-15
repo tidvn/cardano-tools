@@ -8,8 +8,8 @@ export const mainMenu: NavItem[] = [
         disabled: false,
     },
     {
-        title: 'Submit',
-        href: '/submit',
+        title: 'Mint',
+        href: '/mint',
         icon: 'user',
         disabled: false,
     },
