@@ -1,7 +1,7 @@
 import { CardanoNetwork } from '@/types';
 
 const appConfig = {
-    title: 'aiken-meshjs',
+    title: 'cardano utilities',
     description: '',
 };
 
