@@ -12,11 +12,7 @@ export const CardanoWallet = () => {
     const [walletAddress, setWalletAddress] = useState('');
     const { connect, wallet, connected, disconnect, name } = useWallet();
 
-    const wallets = useWalletList({
-        metamask: {
-            network: appNetwork,
-        },
-    });
+    const wallets = useWalletList();
 
     useEffect(() => {
         (async () => {

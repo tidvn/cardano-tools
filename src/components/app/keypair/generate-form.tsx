@@ -46,7 +46,7 @@ const GenerateForm = ({ blockfrostkey }: any) => {
                 words: mnemonic.split(' '),
             },
         });
-        const usedAddresses = wallet.getUsedAddresses();
+        const usedAddresses = await wallet.getUsedAddresses();
         const utxos = await wallet.getUtxos();
         setResult({
             entropyByte: binaryString,
